@@ -1,0 +1,258 @@
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+img { max-width: 100%; height: auto; }
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, 2020-19-031584605809.jpeg);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, 2020-19-031584605809.jpeg);
+    }
+}
+
+div {
+    background-color: rgb(53, 89, 156);
+    padding: 20px;
+    margin-top: 0px;
+}
+
+.top {
+    height: 120px;
+}
+
+.icon {
+    padding: 10px;
+    margin: 30px auto 5px auto;
+}
+
+.menu {
+    margin: 5px 10px 5px 10px;
+}
+
+.text {
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.6;
+    margin: -25px;
+}
+
+.first { 
+    float: right;
+    color: green;
+    border: 1px solid green;
+    background-color: white;
+    padding: 4px;
+    margin: -35px;
+    margin-right: 141px;
+}
+
+.second {
+    float: right;
+    color: green;
+    border: 1px solid green;
+    background-color: white;
+    padding: 4px;
+    margin: -35px;
+    margin-right: 50px;
+}
+
+.third {
+    float: right;
+    color: green;
+    border: 1px solid green;
+    background-color: white;
+    padding: 5px;
+    margin: -9px;
+    margin-right: 118px;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    line-height: 10px;  
+}
+
+header ul {
+    float: right;
+    margin-right: 20px;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 0 auto;
+    padding: 7px 13px;
+    font-family: sans-serif;
+    font-size: 15px;
+    transition: .5s ease;
+}
+
+ul li a:hover {
+    background-color: rgb(53, 89, 156);
+    color: white;
+    border-radius: 20px;
+} 
+
+.image {
+    background-color: white;
+    margin: -20px;
+}
+
+.info {
+    color: white;
+    background-color: rgb(53, 89, 156);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.main{
+    color: rgb(53, 89, 156);
+    font-size: 20px; 
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+span{
+color: green;
+}
+
+.paragraph { 
+    display: flex; 
+    justify-content: space-around;
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 15px;
+    margin-right: 70px;
+    margin-left: 70px;
+    font-family: Arial, Verdana, sans-serif; 
+    background-color: white;
+    color: gray; 
+} 
+
+table {
+    background-color: rgb(53, 89, 156);
+}
+
+.tab {
+    color: white;
+    text-align: center;
+    width: 990px;
+    height: 300px;
+}
+
+.number {
+    font-size: 80px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+.words {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.tab1 {
+    background-color: white;
+    color: rgb(53, 89, 156);
+    width: 850px;
+    height: 300px;
+    text-align: center;
+    border-spacing: 15px 15px;
+}
+
+.one,.two,.three,.four,.five,.six {
+    border: 1px solid rgb(226, 234, 238);
+    cursor: pointer;
+}
+
+.mission {
+    color: rgb(53, 89, 156);
+    font-size: 25px; 
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+}
+
+.box {
+    background-color: white;
+    color:  rgb(53, 89, 156);
+    width: 500px;
+    height: 200px;
+    border-spacing: 25px 10px;
+}
+
+.seven,.eight,.nine,.ten {
+    font-size: 20px;
+    border: 1px solid rgb(226, 234, 238);
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+h3 {
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.pictures {
+    display: inline;
+}
+
+.tab2 {
+    background-color: rgb(19, 20, 32);
+    width: 992px;
+    height: 300px;
+    color: white;
+}
+
+.tab2 .words :hover {
+    border-radius: 100%;
+}
+
+.words1 {
+    color: grey;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+footer {
+    background-color: rgb(53, 89, 156);
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 15px;
+}
+
+.button {
+    position: fixed;
+    right: 30px;
+    bottom: 32px;
+    background-color: lightgrey;
+}
